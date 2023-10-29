@@ -12,7 +12,7 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 /*
---job.name=job
+--job.name=testJob
  */
 @Configuration
 @RequiredArgsConstructor
@@ -31,6 +31,17 @@ public class JobTestConfiguration {
                 // JobLauncherApplicationRunner 가 실행해준다.
                 // execute() : jobLauncher.run(job, parameters);
                 // stepHandler.handleStep(step, execution); : 스텝실행
+
+                /*
+                1) SimpleJobLauncher 의 run()
+                - JobExecution 생성 (마지막에 수행된 JobExecution 객체를 사져옴, 여기서 JobInstance를 가져오는 구문이 있음)
+                - SimpleJobRepository 에서 JobInstance, ExecutionContext 생성
+                - 위 정보들을 set한 JobExecution이 생성됨
+                - job.execute(jobExecution); 를 통해 Job 실행
+                - DefaultJobParameterValidator 에서 검증과정을 거침
+                - AbstractJob 에서 updateStatus(STARTED) 수행
+                -
+                 */
                 .start(testStep1())
                 .next(testStep2())
                 .build();

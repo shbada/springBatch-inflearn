@@ -5,8 +5,8 @@
 |----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | package명                                           | 제목                                                                                                                      | URL                              |
 | &#9745;_01_처음_생성해보는_잡                              | 1. Hello Spring Batch!                                                                                                  | https://devfunny.tistory.com/754 |
-| &#9744; _02_DB연동                                   | -                                                                                                                       | -                                |
-| &#9744;_03_simpleJobBuilder                        | -                                                                                                                       | -                                |
+| &#9745;_02_DB연동                                    | 2. ApplicationRunner 구현 클래스로 Job 수행시키기                                                                                  | https://devfunny.tistory.com/755 |
+| &#9744;_03_simpleJobBuilder                        | SpringBatch의 SimpleJob 수행과정을 예제코드 디버깅으로 분석하기                                                                            | https://devfunny.tistory.com/932 |
 | &#9744;_04_jobInstance                             | -                                                                                                                       | -                                |
 | &#9744;_05_job_수동실행                                | -                                                                                                                       | -                                |
 | &#9745;_06_jobParameter                            | 2. ApplicationRunner 구현 클래스로 Job 수행시키기                                                                                  | https://devfunny.tistory.com/755 |
@@ -21,7 +21,7 @@
 | &#9745;_14_batch_초기화                               | 9. FlowBuilder를 사용해서 FlowJob 생성하기                                                                                       | https://devfunny.tistory.com/776 |
 | &#9744;_15_flowJob_실행해보기                           | -                                                                                                                       | -                                |
 | &#9745;_16_STEP_종료코드                               | 10. STEP의 EXIT_CODE, STATUS 설정하기                                                                                        | https://devfunny.tistory.com/778 |
-| &#9744; _17_stepNext                               | -                                                                                                                       | -                                |
+| &#9744;_17_stepNext                                | -                                                                                                                       | -                                |
 | &#9745;_18_validator                               | 11. JobParameters 검증 CustomValidator 만들기 (JobParametersValidator 구현), 스프링 배치가 제공해주는 DefaultJobParametersValidator 사용해보기 | https://devfunny.tistory.com/779 |
 | &#9745;_19_preventRestart-                         | 12. preventRestart() 지정에 따른 수행 과정 파악하기                                                                                  | https://devfunny.tistory.com/786 |
 | &#9745;_20_incrementer                             | 13. incrementer 설정하기, JobParametersIncrementer 를 구현하여 커스텀 설정하기                                                          | https://devfunny.tistory.com/790 |
