@@ -6,9 +6,9 @@
 | package명                                           | 제목                                                                                                                      | URL                              |
 | &#9745;_01_처음_생성해보는_잡                              | 1. Hello Spring Batch!                                                                                                  | https://devfunny.tistory.com/754 |
 | &#9745;_02_DB연동                                    | 2. ApplicationRunner 구현 클래스로 Job 수행시키기                                                                                  | https://devfunny.tistory.com/755 |
-| &#9744;_03_simpleJobBuilder                        | SpringBatch의 SimpleJob 수행과정을 예제코드 디버깅으로 분석하기                                                                            | https://devfunny.tistory.com/932 |
-| &#9744;_04_jobInstance                             | -                                                                                                                       | -                                |
-| &#9744;_05_job_수동실행                                | -                                                                                                                       | -                                |
+| &#9745;_03_simpleJobBuilder                        | SpringBatch의 SimpleJob 수행과정을 예제코드 디버깅으로 분석하기                                                                            | https://devfunny.tistory.com/932 |
+| &#9745;_04_jobInstance                             | -                                                                                                                       | -                                |
+| &#9745;_05_job_수동실행                                | -                                                                                                                       | -                                |
 | &#9745;_06_jobParameter                            | 2. ApplicationRunner 구현 클래스로 Job 수행시키기                                                                                  | https://devfunny.tistory.com/755 |
 | &#9745;_07_jobExecution                            | 3. Batch Job 수행시 Step 실패하는 경우                                                                                           | https://devfunny.tistory.com/758 |
 | &#9745;_08_step                                    | 4. Tasklet 클래스를 생성하여 Job에 설정하기                                                                                          | https://devfunny.tistory.com/759 |
