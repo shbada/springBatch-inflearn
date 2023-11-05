@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.*;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
+import org.springframework.batch.core.launch.support.RunIdIncrementer;
 import org.springframework.batch.core.scope.context.ChunkContext;
 import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.item.ItemProcessor;
@@ -31,6 +32,7 @@ public class TaskletStepArchitectureConfiguration {
     @Bean
     public Job taskletArchitectureStepJob() {
         return this.jobBuilderFactory.get("taskletArchitectureStepJob")
+                .incrementer(new RunIdIncrementer())
                 .start(taskletArchitectureStepStep1())
                 .listener(new StepExecutionListener() {
                     // before
@@ -54,7 +56,8 @@ public class TaskletStepArchitectureConfiguration {
                     @Override
                     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
                         System.out.println("taskletArchitectureStepStep1");
-                        return RepeatStatus.FINISHED;
+//                        return RepeatStatus.CONTINUABLE;
+                        return null;
                     }
                 })
                 .build();

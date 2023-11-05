@@ -30,7 +30,7 @@
 | &#9745;_23_taskletStep._tasklet_여러개                | 14. 여러개 Tasklet을 선언할 경우, 마지막 Tasklet을 실행한다                                                                              | https://devfunny.tistory.com/792 |
 | &#9745;_24_limit_allow                             | 15. STEP이 COMPELETED 상태로 완료되어도 재실행에 포함시키기 (allowStartIfCompleted(true)), STEP별 재실행 가능 횟수 설정하기 (startLimit())            | https://devfunny.tistory.com/794 |
 | &#9745;_25_jobStep                                 | 16. ParentJob, ChildJob 관계 (JobStep 사용)                                                                                 | https://devfunny.tistory.com/798 |
-| &#9744;_26_TaskletStep_아키텍처                        | -                                                                                                                       | -                                |
+| &#9744;_26_TaskletStep_아키텍처                        | SpringBatch의 TaskletStep 수행과정을 예제코드 디버깅으로 분석하기                                                                          | https://devfunny.tistory.com/934 |
 | &#9745;_27_FlowJob                                 | 17. JobFlowBuilder 흐름 제어하기 (Step 성공/실패에 따라 분기처리)                                                                        | https://devfunny.tistory.com/801 |
 | &#9745;_28_stepNext_flow                           | 18. Job, Flow 혼용하여 Job 수행시키기                                                                                            | https://devfunny.tistory.com/802 |
 | &#9745;_29_BatchStatus_ExitStatus                  | (기존 포스팅) BATCH_JOB_EXECUTION, BATCH_STEP_EXECUTION의 EXIT_CODE, STATUS 컬럼 셋팅 정보                                          | https://devfunny.tistory.com/698 |
