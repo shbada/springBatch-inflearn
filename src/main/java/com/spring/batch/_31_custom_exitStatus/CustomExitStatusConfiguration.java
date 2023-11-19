@@ -39,7 +39,7 @@ public class CustomExitStatusConfiguration {
                     // PASS 를 정의해보자. (new PassCheckingListener)
                     // STEP2 (STATUS:COMPLETED, EXIT_CODE:PASS)
                     // JOB (STATUS:STOPPED, EXIT_CODE:STOPPED)
-                    .on("PASS") // 사용자 코드
+                    .on("PASS") // 사용자 코드 (PassCheckingListener 파일에서 @AfterStep)
                     .stop()
                 .end()
                 .build();
