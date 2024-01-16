@@ -82,3 +82,8 @@
 | &#9744;_75_listener_skip                           | -                                                                                                                       | -                                |
 | &#9745;_77_operation                               | 35. 스프링배치JobExplorer, JobRegistry, JobOperator 알아보기 (With JobRegistryBeanPostProcessor)                                 | https://devfunny.tistory.com/837 |
 | &#9745;_78_batch_test                              | 34. 스프링 배치 Test 코드 작성                                                                                                   | https://devfunny.tistory.com/836 |
+
+
+#### 2차 복습 시작
+- 일정 : 2024.01.04(목) 시작
+- 과정 : Study 진행 (총 4인)
