@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Date;
 import java.util.Map;
 /*
---job.name=jobParameterTestJob
+--job.name=jobParameterTestJob name=test
  */
 @Configuration
 @RequiredArgsConstructor
@@ -48,9 +48,9 @@ public class JobParameterConfiguration {
                                 .getJobParameters();
 
                         String name = jobParameters.getString("name");
-                        Long seq = jobParameters.getLong("seq");
-                        Date date = jobParameters.getDate("date");
-                        Double doubleParam = jobParameters.getDouble("double");
+//                        Long seq = jobParameters.getLong("seq");
+//                        Date date = jobParameters.getDate("date");
+//                        Double doubleParam = jobParameters.getDouble("double");
 
                         /* CASE2. chunkContext */
                         Map<String, Object> jobParameters1 = chunkContext.getStepContext().getJobParameters();
